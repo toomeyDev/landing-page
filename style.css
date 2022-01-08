@@ -71,11 +71,17 @@
 
 .hero-left button {
     color: white;
-    background-color: #3882F6;
-    border: 2px solid #3882F6;
+    background-color: #f0a911;
+    border: 2px solid #f0a911;
     border-radius: 5px;
     align-self: flex-start;
     padding: 4px 14px 4px 14px;
+}
+
+.hero-left button:hover {
+    color: red;
+    background-color: gold;
+    border: 2px solid gold;
 }
 
 .hero-right {
@@ -162,7 +168,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    background-color: #3882F6;
+    background-color: #f0a911;
     color: white;
     border-radius: 5px;
     width: 68%;
@@ -171,15 +177,16 @@
 }
 
 .action-button button {
-    background-color: #3882F6;
+    background-color: #f0a911;
     border: 2px solid white;
     color: white;
     border-radius: 5px;
     padding: 4px 14px 4px 14px;
 }
 
-.action-button button :hover {
-    background-color: darkblue;
+.action-button button:hover {
+    background-color: gold;
+    color: red;
 }
 
 .action-call {
