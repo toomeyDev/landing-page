@@ -106,17 +106,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2%;
+    gap: 5%;
 }
 
 .info-section h2 {
+    background-color: gold;
+    color: white;
+    border: 2px solid gold;
+    border-radius: 6px;
     width: 100%;
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 75px;
 }
 
 .infoblock {
+    margin: auto;
     width: 9%;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,6 +134,13 @@
     width: 200px;
     border: 2px solid #3882F6;
     border-radius: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .info-section {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* quote content section */
